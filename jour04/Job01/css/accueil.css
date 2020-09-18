@@ -1,0 +1,75 @@
+
+/*index*/
+.body{
+	
+	background-repeat: no-repeat;
+	background-size: cover;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+	width: 100%;
+}
+.card {
+	margin: 5%;
+}
+#index{
+	display: flex;
+	justify-content: center;
+	background-image: url(../IMG/fond.png);
+	background-repeat: no-repeat;
+	background-size:cover;
+	width: 100%;
+
+}
+#nav{
+	background-color:#267ebe;
+	width: 100%;
+	font-family: sans-serif;
+
+}
+.foot{
+	background-color:#267ebe;
+	width: 100%;
+	font-family: sans-serif;
+	color: white;
+
+}
+/*competence*/
+
+#competence{
+	flex-wrap: wrap;
+	display: flex;
+	flex-direction:row;
+	justify-content: space-around;
+	align-items: center;
+	background-image: url(../IMG/fond.png);
+	background-repeat: no-repeat;
+	background-size:cover;
+	min-height: 650px;
+	width: 100%;
+
+}
+.photo{
+	border-radius: 10%;
+	margin: 2%;
+	width: 450px;
+	height: 300px;
+}
+/*photo*/
+#photos{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-image: url(../IMG/fond.png);
+	background-repeat: no-repeat;
+	background-size:cover;
+	min-height:600px;
+
+}
+.carousel{
+	margin: 4%;
+}
+
+
+
